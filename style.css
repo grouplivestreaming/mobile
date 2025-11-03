@@ -365,9 +365,10 @@
 }
 
 
-.mobile-wrapper111 {
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-    overflow-x: hidden; /* 禁止横向滚动，防止错位 */
+.container1234 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow: hidden;
 }
