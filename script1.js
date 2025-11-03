@@ -321,3 +321,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 })();
+
+function resizePage() {
+    const wrapper = document.getElementById('page-wrapper');
+    const screenWidth = window.innerWidth;
+    const designWidth = 1920; // 你的设计稿宽度
+    const scale = screenWidth / designWidth;
+    wrapper.style.transform = `scale(${scale})`;
+}
+window.addEventListener('resize', resizePage);
+window.addEventListener('load', resizePage);
