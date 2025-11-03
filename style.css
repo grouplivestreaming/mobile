@@ -365,7 +365,7 @@
 }
 
 
-.container1234 {
+#page-wrapper {
     width: 1920px;  /* 你的设计稿宽度 */
     transform-origin: top left; /* 从左上角开始缩放 */
 }
